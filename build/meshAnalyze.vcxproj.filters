@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\besse\Documents\dev\pan2vtk\pan2vtk\meshAnalyze\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\besse\Documents\dev\pan2vtk\pan2vtk\meshAnalyze\point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\besse\Documents\dev\pan2vtk\pan2vtk\meshAnalyze\panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\besse\Documents\dev\pan2vtk\pan2vtk\meshAnalyze\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{47222B63-0933-33F8-A72E-59FF349E96DD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

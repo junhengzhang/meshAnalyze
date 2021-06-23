@@ -1,0 +1,10 @@
+^C:\USERS\BESSE\DOCUMENTS\DEV\PAN2VTK\PAN2VTK\MESHANALYZE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/besse/Documents/dev/pan2vtk/pan2vtk/meshAnalyze -BC:/Users/besse/Documents/dev/pan2vtk/pan2vtk/meshAnalyze/build --check-stamp-file C:/Users/besse/Documents/dev/pan2vtk/pan2vtk/meshAnalyze/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

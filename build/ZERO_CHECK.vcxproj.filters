@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\besse\Documents\dev\pan2vtk\pan2vtk\meshAnalyze\build\CMakeFiles\cca4ba12816b2aa3018e3e671c4587f8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5EA0D73C-744B-3DF9-B3D9-F5E5EA2C0DEA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

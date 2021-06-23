@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/meshAnalyze.dir/main.cpp.o CMakeFiles/meshAnalyze.dir/point.cpp.o CMakeFiles/meshAnalyze.dir/panel.cpp.o -o meshAnalyze 
