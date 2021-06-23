@@ -8,7 +8,7 @@
 using std::istringstream;
 
 // for string delimiter
-// some adds to test gitlab and github distinction
+// some adds to test gitlab and github distinction from home PC
 std::vector<std::string> split (std::string s, std::string delimiter) {
     size_t pos_start = 0, pos_end, delim_len = delimiter.length();
     std::string token;
