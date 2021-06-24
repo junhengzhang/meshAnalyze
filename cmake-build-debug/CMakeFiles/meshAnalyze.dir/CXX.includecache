@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/heng/dev/pan2vtk/meshAnalyze/main.cpp
+/home/heng/dev/meshAnalyze/main.cpp
 iostream
 -
 fstream
@@ -18,17 +18,17 @@ vector
 iosfwd
 -
 panel.cpp
-/home/heng/dev/pan2vtk/meshAnalyze/panel.cpp
+/home/heng/dev/meshAnalyze/panel.cpp
 
-/home/heng/dev/pan2vtk/meshAnalyze/panel.cpp
+/home/heng/dev/meshAnalyze/panel.cpp
 optional
 -
 iostream
 -
 cmath
-/home/heng/dev/pan2vtk/meshAnalyze/cmath
+/home/heng/dev/meshAnalyze/cmath
 point.cpp
-/home/heng/dev/pan2vtk/meshAnalyze/point.cpp
+/home/heng/dev/meshAnalyze/point.cpp
 
-/home/heng/dev/pan2vtk/meshAnalyze/point.cpp
+/home/heng/dev/meshAnalyze/point.cpp
 

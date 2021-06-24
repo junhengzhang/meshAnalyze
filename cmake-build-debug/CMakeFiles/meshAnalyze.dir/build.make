@@ -62,10 +62,10 @@ RM = /snap/clion/152/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/heng/dev/pan2vtk/meshAnalyze
+CMAKE_SOURCE_DIR = /home/heng/dev/meshAnalyze
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/heng/dev/pan2vtk/meshAnalyze/cmake-build-debug
+CMAKE_BINARY_DIR = /home/heng/dev/meshAnalyze/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/meshAnalyze.dir/depend.make
@@ -78,42 +78,42 @@ include CMakeFiles/meshAnalyze.dir/flags.make
 
 CMakeFiles/meshAnalyze.dir/main.cpp.o: CMakeFiles/meshAnalyze.dir/flags.make
 CMakeFiles/meshAnalyze.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/dev/pan2vtk/meshAnalyze/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/meshAnalyze.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meshAnalyze.dir/main.cpp.o -c /home/heng/dev/pan2vtk/meshAnalyze/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/dev/meshAnalyze/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/meshAnalyze.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meshAnalyze.dir/main.cpp.o -c /home/heng/dev/meshAnalyze/main.cpp
 
 CMakeFiles/meshAnalyze.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshAnalyze.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heng/dev/pan2vtk/meshAnalyze/main.cpp > CMakeFiles/meshAnalyze.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heng/dev/meshAnalyze/main.cpp > CMakeFiles/meshAnalyze.dir/main.cpp.i
 
 CMakeFiles/meshAnalyze.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshAnalyze.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heng/dev/pan2vtk/meshAnalyze/main.cpp -o CMakeFiles/meshAnalyze.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heng/dev/meshAnalyze/main.cpp -o CMakeFiles/meshAnalyze.dir/main.cpp.s
 
 CMakeFiles/meshAnalyze.dir/point.cpp.o: CMakeFiles/meshAnalyze.dir/flags.make
 CMakeFiles/meshAnalyze.dir/point.cpp.o: ../point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/dev/pan2vtk/meshAnalyze/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/meshAnalyze.dir/point.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meshAnalyze.dir/point.cpp.o -c /home/heng/dev/pan2vtk/meshAnalyze/point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/dev/meshAnalyze/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/meshAnalyze.dir/point.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meshAnalyze.dir/point.cpp.o -c /home/heng/dev/meshAnalyze/point.cpp
 
 CMakeFiles/meshAnalyze.dir/point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshAnalyze.dir/point.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heng/dev/pan2vtk/meshAnalyze/point.cpp > CMakeFiles/meshAnalyze.dir/point.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heng/dev/meshAnalyze/point.cpp > CMakeFiles/meshAnalyze.dir/point.cpp.i
 
 CMakeFiles/meshAnalyze.dir/point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshAnalyze.dir/point.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heng/dev/pan2vtk/meshAnalyze/point.cpp -o CMakeFiles/meshAnalyze.dir/point.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heng/dev/meshAnalyze/point.cpp -o CMakeFiles/meshAnalyze.dir/point.cpp.s
 
 CMakeFiles/meshAnalyze.dir/panel.cpp.o: CMakeFiles/meshAnalyze.dir/flags.make
 CMakeFiles/meshAnalyze.dir/panel.cpp.o: ../panel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/dev/pan2vtk/meshAnalyze/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/meshAnalyze.dir/panel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meshAnalyze.dir/panel.cpp.o -c /home/heng/dev/pan2vtk/meshAnalyze/panel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heng/dev/meshAnalyze/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/meshAnalyze.dir/panel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/meshAnalyze.dir/panel.cpp.o -c /home/heng/dev/meshAnalyze/panel.cpp
 
 CMakeFiles/meshAnalyze.dir/panel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshAnalyze.dir/panel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heng/dev/pan2vtk/meshAnalyze/panel.cpp > CMakeFiles/meshAnalyze.dir/panel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heng/dev/meshAnalyze/panel.cpp > CMakeFiles/meshAnalyze.dir/panel.cpp.i
 
 CMakeFiles/meshAnalyze.dir/panel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshAnalyze.dir/panel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heng/dev/pan2vtk/meshAnalyze/panel.cpp -o CMakeFiles/meshAnalyze.dir/panel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heng/dev/meshAnalyze/panel.cpp -o CMakeFiles/meshAnalyze.dir/panel.cpp.s
 
 # Object files for target meshAnalyze
 meshAnalyze_OBJECTS = \
@@ -129,7 +129,7 @@ meshAnalyze: CMakeFiles/meshAnalyze.dir/point.cpp.o
 meshAnalyze: CMakeFiles/meshAnalyze.dir/panel.cpp.o
 meshAnalyze: CMakeFiles/meshAnalyze.dir/build.make
 meshAnalyze: CMakeFiles/meshAnalyze.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/heng/dev/pan2vtk/meshAnalyze/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable meshAnalyze"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/heng/dev/meshAnalyze/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable meshAnalyze"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/meshAnalyze.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +142,6 @@ CMakeFiles/meshAnalyze.dir/clean:
 .PHONY : CMakeFiles/meshAnalyze.dir/clean
 
 CMakeFiles/meshAnalyze.dir/depend:
-	cd /home/heng/dev/pan2vtk/meshAnalyze/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/heng/dev/pan2vtk/meshAnalyze /home/heng/dev/pan2vtk/meshAnalyze /home/heng/dev/pan2vtk/meshAnalyze/cmake-build-debug /home/heng/dev/pan2vtk/meshAnalyze/cmake-build-debug /home/heng/dev/pan2vtk/meshAnalyze/cmake-build-debug/CMakeFiles/meshAnalyze.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/heng/dev/meshAnalyze/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/heng/dev/meshAnalyze /home/heng/dev/meshAnalyze /home/heng/dev/meshAnalyze/cmake-build-debug /home/heng/dev/meshAnalyze/cmake-build-debug /home/heng/dev/meshAnalyze/cmake-build-debug/CMakeFiles/meshAnalyze.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/meshAnalyze.dir/depend
 

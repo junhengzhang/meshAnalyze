@@ -55,31 +55,22 @@ public:
         return lmax;
     }
 
-    //float aspectRatio(Point p1, Point p2, Point p3, std::optional<Point> p4)
+    //ToDo: calculate Aspect Ratio, Hint: its okay when maxL/minL
     float aspectRatio()
     {
-        float lmax;
-        float lmin;
-        //length of edges
-        //4 corners
-        if(corners==4){
-            float l12 = length(p1, p2);
-            float l23 = length(p2, p3);
-            float l34 = length(p3, p4);
-            float l41 = length(p1, p4);
+       float aspectRation;
+       //put your code here
 
-            lmax = fmax( fmax(l12, l23), fmax(l34, l41));
-            lmin = fmin( fmin(l12, l23), fmin(l34, l41));
-        }
-        else {
-            float l12 = length(p1, p2);
-            float l23 = length(p2, p3);
-            float l31 = length(p1, p3);
+       return aspectRation;
+    }
 
-            lmax = fmax( fmax(l12, l23), l31);
-            lmin = fmin( fmin(l12, l23), l31);
-        }
-        return lmax/lmin;
+    //ToDo: calculate Area
+    float area()
+    {
+        float area;
+        //put your code here
+
+        return area;
     }
 
 private:
