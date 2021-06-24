@@ -8,7 +8,7 @@
 using std::istringstream;
 
 // for string delimiter
-// some adds to test gitlab and github distinction from home PC
+// this function split a long string into substrings and put them into a vector containing these substrings
 std::vector<std::string> split (const std::string& s, const std::string& delimiter) {
     size_t pos_start = 0, pos_end, delim_len = delimiter.length();
     std::string token;
